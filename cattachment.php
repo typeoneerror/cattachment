@@ -77,6 +77,7 @@ function cattachment_get_options_array($opt_val)
     $options = array();
     foreach ($values as $option)
     {
+        $option = preg_replace("/[^\w ]/i", "", $option);
         $var = strtolower(preg_replace("/ /i", "_", $option));
         $options[$var] = $option;
     }
