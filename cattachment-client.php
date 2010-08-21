@@ -32,3 +32,14 @@ function get_the_attachments($type = null, $id = 0)
     $results = $wpdb->get_results($statement);
     return $results;
 }
+
+/**
+ * Get the root relative path to an image.
+ *
+ * @return string  File path.
+ */
+function get_relative_path($path)
+{
+    $paths = (object)parse_url($path);
+    return $paths->path;
+}
