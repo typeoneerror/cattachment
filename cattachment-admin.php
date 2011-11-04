@@ -17,7 +17,8 @@ function cattachment_admin()
  */
 function cattachment_admin_menu()
 {
-    add_submenu_page("upload.php", "Cattachment", "Cattachment", 1, "cattachment", "cattachment_admin");
+    $required_capability = "edit_published_posts";
+    add_submenu_page("upload.php", "Cattachment", "Cattachment", $required_capability, "cattachment", "cattachment_admin");
 }
 add_action("admin_menu", "cattachment_admin_menu");
 

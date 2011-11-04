@@ -10,7 +10,7 @@ if (!empty($_POST["cattachment_categories"]))
 
 $title = "Cattachment Manager";
 $options = cattachment_get_options();
-$opt_val = join("\n", $options);
+$opt_val = is_array($options) ? join("\n", $options) : $options;
 
 ?>
 
