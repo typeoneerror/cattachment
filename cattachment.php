@@ -3,7 +3,7 @@
 /*
 Plugin Name: Cattachment
 Description: Adds a drop-down to post gallery options for selecting the type of image. Adds the value as a metadata value in the attachment metadata.
-Version: 0.1
+Version: 0.2
 Author: Benjamin Borowski
 Author URI: http://typeoneerror.com
 License: GPL2
