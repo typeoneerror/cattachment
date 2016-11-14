@@ -7,10 +7,11 @@ Version: 0.2
 Author: Benjamin Borowski
 Author URI: http://typeoneerror.com
 License: GPL2
+License URI: http://www.gnu.org/licenses/gpl.html
 */
 
 /*
-Copyright 2010 Benjamin Borowski (ben.borowski@typeoneerror.com)
+Copyright 2016 Benjamin Borowski
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as
